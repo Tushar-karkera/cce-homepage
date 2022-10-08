@@ -1,0 +1,276 @@
+body {
+  font-family: "Montserrat";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container-fluid {
+  padding: 2% 10% 0%;
+}
+
+.computer {
+  margin-top: 40px;
+  padding-left: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #5534a5;
+  color: #fff;
+}
+
+
+/* navigation bar */
+
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.access-logo {
+  padding-top: 5px;
+  width: 30%;
+}
+
+/* title section */
+
+.head {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.desc {
+  font-size: 1.7rem;
+}
+
+/* title image */
+
+.title-img {
+  width: 100%;
+}
+
+/* details section */
+
+#details {
+  padding: 0% 15%;
+  background-color: #fff;
+}
+
+.description {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
+
+.names {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.details-icon {
+  color: #4b7be5;
+  margin-bottom: 1rem;
+}
+
+.details-icon:hover {
+  color: #5534a5;
+}
+
+.details-box {
+  text-align: center;
+  padding: 1%;
+}
+
+/* events section */
+
+#events {
+  text-align: center;
+  background-color: #2a50a3;
+  color: #fff;
+  padding: 10px;
+}
+
+.events-img {
+  border-radius: 3%;
+  width: 60%;
+  margin: 0px 20px;
+
+}
+
+.carousel-item {
+  padding: 2% 10% 1%;
+}
+
+.carousel-item h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-bottom: 1%;
+}
+
+/* faculty section */
+
+.faculty-spacing {
+  margin: 0 auto;
+  
+  border-radius: 10px;
+}
+.card{
+    box-shadow: rgba(25, 60, 77, 0.4) 0px 25px 20px -20px;
+}
+
+#faculty {
+  padding: 0px 100px;
+  text-align: center;
+}
+
+.faculty-col {
+  padding: 3% 2%;
+}
+
+.faculty-name {
+  font-size: 1.6rem;
+}
+
+.faculty-img {
+  width: 60%;
+  border-radius: 100%;
+}
+
+.faculty-detail-list {
+  text-align: left;
+}
+
+.faculty-position {
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+/* dept-details section */
+
+#dept-details {
+  background-color: #5534a5;
+  padding: 0% 15%;
+  text-align: center;
+}
+
+.dept-details-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1;
+  color: #fff;
+  margin: 0% auto;
+  text-align: center;
+}
+
+/* footer section */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 2% 15%;
+}
+
+.footer-copyright {
+  margin: 2% auto;
+  font-size: 1.5rem;
+}
+
+.footer-icons {
+  margin: 2% 18px;
+}
+
+/* media query */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .dept-details-heading{
+    font-size: 1.2rem;
+  }
+}
+
+.spacer{
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.layer1{
+  background-image: url('../images/layer1.svg');
+}
+
+.layer2{
+  background-image: url('../images/layer2.svg');
+}
+.layer3{
+  background-image: url('../images/layer3.svg');
+}
+.layer4{
+  background-image: url('../images/layer4.svg');
+}
+.layer5{
+  background-image: url('../images/layer5.svg');
+}
+
+/* type writer animation */
+.typewriter {
+  overflow:hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: 
+    typing 7s steps(30, end),
+    blink-caret .5s step-end infinite;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
