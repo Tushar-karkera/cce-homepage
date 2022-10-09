@@ -231,6 +231,10 @@ h2 {
   #dept-details{
     margin: -5px auto;
   }
+  .layer3{
+    margin: 0;
+    padding: 0;
+  }
 }
 .spacer{
   aspect-ratio: 960/300;
