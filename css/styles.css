@@ -221,9 +221,9 @@ h2 {
   .dept-details-heading{
     font-size: 1.2rem;
   }
-  section{
+  #events{
     padding: 0;
-    margin: -5px 0px -5px 0px;
+    margin: -5px auto;
   }
   #title{
     margin-bottom: -5px;
