@@ -1,7 +1,6 @@
 body {
   font-family: "Montserrat";
 }
-
 a {
   text-decoration: none;
   color: black;
@@ -37,7 +36,6 @@ h2 {
 
 
 /* navigation bar */
-
 .navbar {
   padding: 0 0 4rem;
 }
@@ -64,7 +62,6 @@ h2 {
 }
 
 /* title section */
-
 .head {
   font-size: 2.5rem;
   line-height: 1.5;
@@ -75,13 +72,11 @@ h2 {
 }
 
 /* title image */
-
 .title-img {
   width: 100%;
 }
 
 /* details section */
-
 #details {
   padding: 0% 15%;
   background-color: #fff;
@@ -113,7 +108,6 @@ h2 {
 }
 
 /* events section */
-
 #events {
   text-align: center;
   background-color: #2a50a3;
@@ -138,8 +132,17 @@ h2 {
   padding-bottom: 1%;
 }
 
-/* faculty section */
+.testimonial-text{
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+          line-clamp: 2; 
+  -webkit-box-orient: vertical;
+}
 
+/* faculty section */
 .faculty-spacing {
   margin: 0 auto;
   
@@ -178,7 +181,6 @@ h2 {
 
 
 /* dept-details section */
-
 #dept-details {
   background-color: #5534a5;
   padding: 0% 15%;
@@ -196,7 +198,6 @@ h2 {
 }
 
 /* footer section */
-
 #footer {
   background-color: #fff;
   text-align: center;
@@ -213,7 +214,6 @@ h2 {
 }
 
 /* media query */
-
 @media (max-width: 1028px) {
   #title {
     text-align: center;
@@ -221,8 +221,14 @@ h2 {
   .dept-details-heading{
     font-size: 1.2rem;
   }
+  section{
+    padding: 0;
+    margin: -5px 0px -5px 0px;
+  }
+  #title{
+    margin-bottom: -5px;
+  }
 }
-
 .spacer{
   aspect-ratio: 960/300;
   width: 100%;
@@ -231,11 +237,9 @@ h2 {
   background-size: cover;
 
 }
-
 .layer1{
   background-image: url('../images/layer1.svg');
 }
-
 .layer2{
   background-image: url('../images/layer2.svg');
 }
